@@ -1,0 +1,20 @@
+{
+  "name": "library-lookup",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend",
+    "infrastructure"
+  ],
+  "scripts": {
+    "frontend": "npm run dev --workspace=frontend",
+    "backend": "npm run dev --workspace=backend",
+    "backend:build": "npm run build --workspace=backend",
+    "deploy": "npm run deploy --workspace=infrastructure"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Amazon wishlist to library availability checker"
+}

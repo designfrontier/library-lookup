@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:catalog.slcpl.org)",
+      "WebFetch(domain:developer.polarislibrary.com)",
+      "Bash(npm init:*)",
+      "Bash(npm install:*)",
+      "WebFetch(domain:www.amazon.com)",
+      "Bash(npx tsx:*)",
+      "Bash(npm run backend:build:*)",
+      "Bash(node:*)",
+      "Bash(npm run build:*)",
+      "Bash(curl -s \"https://www.amazon.com/hz/wishlist/ls/3O0VHVO5H93IZ\" -H \"User-Agent: Mozilla/5.0\")",
+      "Bash(curl -sL \"https://www.amazon.com/hz/wishlist/ls/3O0VHVO5H93IZ\" -H \"User-Agent: Mozilla/5.0\")",
+      "WebFetch(domain:github.com)",
+      "Bash(curl -sL \"https://catalog.slcpl.org/polaris/search/searchresults.aspx?ctx=1.1033.0.0.7&type=Keyword&term=james&by=KW&sort=RELEVANCE&limit=TOM=*\" -H \"User-Agent: Mozilla/5.0\")",
+      "Bash(curl -sL \"https://catalog.slcpl.org/polaris/search/searchresults.aspx?ctx=1.1033.0.0.7&type=Keyword&term=James&by=KW\" -H \"User-Agent: Mozilla/5.0\" -o test-james.html)",
+      "Bash(timeout:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

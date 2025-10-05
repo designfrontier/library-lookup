@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.env
+.DS_Store
+
+# CDK
+*.js
+!jest.config.js
+*.d.ts
+.cdk.staging/
+cdk.out/
+
+# Frontend build
+frontend/dist/
+
+# Backend build
+backend/dist/
